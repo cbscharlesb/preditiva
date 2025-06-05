@@ -90,3 +90,4 @@ Foi desenvolvida uma aplicação web utilizando Flask no backend e JavaScript no
 - **Deploy do Modelo:** Publicação do sistema em um servidor web.
 - **Avaliação de Impacto:** Estudo do impacto da predição em políticas públicas e segurança viária.
 # Preditiva
+# preditiva
