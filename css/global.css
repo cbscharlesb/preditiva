@@ -1,0 +1,146 @@
+/* global.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Lato, sans-serif;
+  background-color: #ffffff;
+}
+
+code {
+  font-size: 16px;
+  background-color: #ededed;
+}
+
+.menu {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.menuLateral {
+  width: 400px;
+  height: 100vh; 
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.navegacaoLateral {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  height: 100%;
+  padding: 30px 0;
+}
+
+.conjuntoLateralCabecalho {
+  list-style: none;
+  padding: 0;
+}
+
+.conjuntoLateralCabecalho img {
+  max-width: 300px;
+}
+
+.conjuntoLateral {
+  list-style: none;
+  padding: 0;
+}
+
+.listaLateral {
+  padding: 15px;
+  margin: 25px;
+  text-align: center;
+  display: block;
+}
+
+.listaLateralCabecalho {
+  text-align: center;
+}
+
+.listaLateral a {
+  color: white;
+  text-decoration: none;
+}
+
+.listaLateral {
+  border: solid 1px transparent; 
+}
+
+.listaLateral:hover {
+  border: solid 1px #ffffff; 
+}
+
+#listaHome {
+  background-color: #AD0000;
+  border-radius: 8px;
+  width: 300px;
+  justify-self: center;
+}
+
+#listaBaseDados {
+  background-color: #787000;
+  border-radius: 8px;
+  width: 300px;
+  justify-self: center;
+}
+
+#listaEDA {
+  background-color: #005C00;
+  border-radius: 8px;
+  width: 300px;
+  justify-self: center;
+}
+
+#listaLearnMore {
+  background-color: #AD0000;
+  border-radius: 8px;
+  width: 300px;
+  justify-self: center;
+}
+
+#listaPF {
+  background-color: #787000;
+  border-radius: 8px;
+  width: 300px;
+  justify-self: center;
+}
+
+#listaGraficos {
+  background-color: #005C00;
+  border-radius: 8px;
+  width: 300px;
+  justify-self: center;
+}
+
+.textoRodape {
+  color:#ffffff;
+}
+
+.linkEquipe {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.linkEquipe:hover {
+  text-decoration: underline;
+}
+
+.conjuntoLateralRodape {
+  list-style: none;
+  display: flex;
+  margin-top: 80px;
+  justify-content: space-between;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.listaLateralRodape {
+  align-self: center;
+}

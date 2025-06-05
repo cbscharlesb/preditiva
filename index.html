@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FatalityPredict - Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+  <!-- MENU LATERAL -->
+
+  <aside class="menuLateral">
+    <nav class="navegacaoLateral">
+
+      <header class="cabecalho">
+        <ul class="conjuntoLateralCabecalho">
+          <li class="listaLateralCabecalho"><img src="./img/logo/logo_FatalityPredict.png" alt="Logo FatalityPredict">
+          </li>
+        </ul>
+      </header>
+
+      <section class="menu">
+        <ul class="conjuntoLateral">
+          <li class="listaLateral" id="listaHome">
+            <a href="index.html">Traffic Accidents</a>
+          </li>
+          <li class="listaLateral" id="listaBaseDados">
+            <a href="./pags/basedados.html">Data Base</a>
+          </li>
+          <li class="listaLateral" id="listaPF">
+            <a href="./pags/previsaofatalidade.html">FatalityPredict</a>
+          </li>
+          <li class="listaLateral" id="listaGraficos">
+            <a href="./pags/graficos.html">Graphics</a>
+          </li>
+        </ul>
+      </section>
+
+      <footer class="rodape">
+        <ul class="conjuntoLateralRodape">
+          <li class="listaLateralRodape">
+            <p class="textoRodape">FatalityPredict&copy; 2025.</p>
+          </li>
+          <li class="listaLateralRodape">
+            <a href="./pags/sobrenos.html" class="linkEquipe">About Us</a>
+          </li>
+          <li class="listaLateralRodape">
+            <a href="https://github.com/mariliagabriellanascimento/FatalityPredict" target="_blank"
+              rel="noopener noreferrer"><img src="./img/icon/git.png" width="36px" alt="Logo GitHub"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </nav>
+  </aside>
+
+  <!-- MENU RESPONSIVO -->
+
+  <div class="menuLateralmobile">
+    <header class="cabecalhoMobile">
+      <ul class="conjuntoLateralCabecalho">
+        <li class="listaLateralCabecalho"><img src="./img/logo/logo_FatalityPredict.png" id="logoMobile"
+            alt="Logo FatalityPredict">
+        </li>
+      </ul>
+    </header>
+
+    <footer class="rodapeSobreNos">
+      <p>FatalityPredict&copy; 2025.</p>
+      <a href="../pags/sobrenos.html" class="linkEquipe">About Us</a>
+      <a href="https://github.com/mariliagabriellanascimento/FatalityPredict" target="_blank"
+        rel="noopener noreferrer"><img src="./img/icon/git.png" width="36px" alt="Logo GitHub"></a>
+    </footer>
+  </div>
+
+  <div class="botao-abrir" id="botao-menu">
+    <i class="bi bi-list"></i>
+  </div>
+
+  <div class="menu-mobile" id="menu-mobile">
+    <div class="botao-fechar">
+      <i class="bi bi-x-lg"></i>
+    </div>
+    <nav>
+      <ul>
+        <li class="listaLateralMobile" id="listaHomeMobile">
+          <a href="index.html">Traffic Accidents</a>
+        </li>
+        <li class="listaLateralMobile" id="listaBaseDadosMobile">
+          <a href="./pags/basedados.html">Data Base</a>
+        </li>
+        <li class="listaLateralMobile" id="listaPFMobile">
+          <a href="./pags/previsaofatalidade.html">FatalityPredict</a>
+        </li>
+        <li class="listaLateralMobile" id="listaGraficosMobile">
+          <a href="./pags/graficos.html">Graphics</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- CONTEUDO PRINCIPAL HOME -->
+
+  <main class="conteudo-principal-home">
+    <section class="container-explicacao">
+      <h1 class="titulo-principal">Traffic Accident Prediction in Brazil: Analysis of DETRAN 2020 Data</h1>
+
+      <p class="paragrafo-intro">
+        <b>The Problem:</b> Traffic accidents are one of the leading causes of death in Brazil, representing a serious
+        public health and road safety issue. In 2020, Brazil recorded thousands of accidents, involving a wide variety
+        of factors, from weather conditions to driver behavior. The complexity of these events requires a deeper
+        analysis to identify patterns, predict scenarios, and most importantly, prevent future tragedies.
+      </p>
+
+      <div class="grid-explicacao">
+        <div class="card-explicacaoGraficoHome">
+          <h2 class="titulo-secundario">More than 20 dead in fiery bus-truck collision in Brazil</h2>
+          <ul class="lista-explicacaoGrafico">
+            <li class="item-explicacaoGrafico">
+              <div class="grafico">
+                <img src="https://cdn.pixabay.com/photo/2017/08/19/20/10/semi-2659732_1280.jpg" alt="News 3"
+                  class="carrossel-imagem-noticia">
+                <p class="titulosGraficos"><b>A tragic crash between a passenger bus and a truck in Minas Gerais,
+                    Brazil, left over 30 people dead. The truck driver reportedly fled the scene.</b></p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="paragrafo-intro">
+        <b>What We Propose:</b> In this project, we aim to explore and analyze 2020 traffic accident data from DETRAN
+        with the goal of developing predictive models capable of forecasting the severity of accidents. Through the
+        analysis of factors such as vehicle conditions, driver behavior, and accident characteristics, we want to
+        create
+        solutions that can assist in decision-making to reduce the number of traffic victims.
+      </p>
+
+      <p class="paragrafo-intro">
+        <b>Important:</b> The predictions made by our model are based on historical data and statistics and should not
+        be interpreted as a final diagnosis. Just like in medical diagnostics, predictions can suggest trends but do
+        not
+        replace expert analysis. This project aims to support public policies and prevention strategies, not to
+        determine what will happen in a specific scenario.
+      </p>
+
+      <div class="grid-explicacao">
+        <div class="card-explicacaoGraficoHome">
+          <h2 class="titulo-secundario">Graphically:</h2>
+          <ul class="lista-explicacaoGrafico">
+            <li class="item-explicacaoGrafico">
+              Accident severity categories showing the data imbalance in favor of "Non-Fatal" cases.
+              <div class="grafico">
+                <p class="titulosGraficos"><b>Accident Severity Distribution</b></p>
+                <img src="./img/graficos/balanceamento-da-base.png" alt="Accident Severity Chart">
+              </div>
+            </li>
+            <li class="item-explicacaoGrafico">
+              Not using a seat belt is associated with more severe accidents.
+              <div class="grafico">
+                <p class="titulosGraficos"><b>Relationship Between Seat Belt Use and Accident Severity</b></p>
+                <img src="./img/graficos/distribuicao-cinto-seguranca.png" alt="Seat Belt Use Chart">
+              </div>
+            </li>
+            <li class="item-explicacaoGrafico">
+              Driving under the influence, although less frequent, worsens accidents.
+              <div class="grafico">
+                <p class="titulosGraficos"><b>Impact of Drunk Driving on Accident Severity</b></p>
+                <img src="./img/graficos/distribuicao-embreaguez.png" alt="Drunk Driving Chart">
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="card-explicacao">
+          <h2 class="titulo-secundario">Our Predictive Model:</h2>
+          <ul class="lista-explicacao">
+            <li class="item-explicacao"><b>Exploratory Data Analysis (EDA):</b> In-depth study of the data to identify
+              patterns and correlate variables.</li>
+            <li class="item-explicacao"><b>Predictive Modeling:</b> Use of machine learning techniques such as Random
+              Forest, XGBoost, and others to predict accident severity.</li>
+            <li class="item-explicacao"><b>Risk Factors:</b> Identification of the main factors that increase accident
+              severity.</li>
+            <li class="item-explicacao"><b>Model Chosen:</b> After testing different classifiers, we selected the
+              <b>Support Vector Machine (SVM)</b> using the RBF kernel due to its consistent performance across classes.
+            </li>
+          </ul>
+        </div>
+
+        <div class="card-explicacao">
+          <h3 class="titulo-secundario">Why SVM?</h3>
+          <p>
+            The SVM model showed balanced results between precision and recall for all classes, especially for
+            <b>"SEM FERIMENTOS"</b>, which is the majority class. It also demonstrated solid performance on minority
+            classes like <b>"FATAL"</b>.
+          </p>
+
+          <p><b>Validation Results:</b></p>
+          <table class="tabela-resultados">
+            <thead>
+              <tr>
+                <th>Class</th>
+                <th>Precision</th>
+                <th>Recall</th>
+                <th>F1-score</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>FATAL</td>
+                <td>0.74</td>
+                <td>0.71</td>
+                <td>0.72</td>
+              </tr>
+              <tr>
+                <td>NAO FATAL</td>
+                <td>0.62</td>
+                <td>0.63</td>
+                <td>0.62</td>
+              </tr>
+              <tr>
+                <td>SEM FERIMENTOS</td>
+                <td>0.84</td>
+                <td>0.85</td>
+                <td>0.84</td>
+              </tr>
+              <tr class="total-row">
+                <td>Overall Accuracy</td>
+                <td colspan="3">0.73</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p><b>Test Results:</b></p>
+          <table class="tabela-resultados">
+            <thead>
+              <tr>
+                <th>Class</th>
+                <th>Precision</th>
+                <th>Recall</th>
+                <th>F1-score</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>FATAL</td>
+                <td>0.74</td>
+                <td>0.70</td>
+                <td>0.72</td>
+              </tr>
+              <tr>
+                <td>NAO FATAL</td>
+                <td>0.60</td>
+                <td>0.66</td>
+                <td>0.63</td>
+              </tr>
+              <tr>
+                <td>SEM FERIMENTOS</td>
+                <td>0.86</td>
+                <td>0.83</td>
+                <td>0.84</td>
+              </tr>
+              <tr class="total-row">
+                <td>Overall Accuracy</td>
+                <td colspan="3">0.73</td>
+              </tr>
+            </tbody>
+          </table>
+
+
+          <p>The confusion matrix below shows that most predictions are close to their correct categories, especially
+            for the "SEM FERIMENTOS" class, which has high true positives. Misclassifications are concentrated between
+            the "FATAL" and "NAO FATAL" classes, which are more challenging to distinguish due to their similar
+            characteristics.</p>
+
+
+          <ul class="lista-explicacaoGrafico">
+            <li class="item-explicacaoGrafico">
+              Accident severity categories showing the data imbalance in favor of "Non-Fatal" cases.
+              <div class="grafico">
+                <p class="titulosGraficos"><b>Confusion Matrix - SVM Mode</b></p>
+                <img src="./img/graficos/modelo_escolhido.png" alt="Confusion Matrix - SVM Model">
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+
+      </div>
+
+      <h2 class="titulo-secundario">Conclusion</h2>
+      <p class="paragrafo-intro">
+        Through this project, we demonstrate how data science can be a powerful ally in traffic accident prevention.
+        By
+        analyzing and predicting accident scenarios, we can contribute to more effective public policies, raise
+        awareness among the population, and ultimately save lives. The road to safer traffic begins with understanding
+        and acting on information.
+      </p>
+    </section>
+    <div class="conteudo-principal-saibamais">
+      <div class="card-explicacao">
+        <h2 class="titulo-secundario">Latest News</h2>
+        <section class="container-carrossel-maior-noticia">
+          <div class="container-carrossel-noticia swiper">
+            <div class="wrapper-carrossel">
+              <ul class="carrossel-list-noticia swiper-wrapper">
+                <li class="carrossel-item-noticia swiper-slide">
+                  <a href="https://www.reuters.com/world/europe/several-injured-after-car-drives-into-crowd-german-city-stuttgart-2025-05-02/"
+                    class="carrossel-link-noticia" target="_blank" rel="noopener noreferrer">
+                    <img src="https://cdn.pixabay.com/photo/2020/05/13/12/16/accident-5167244_1280.jpg" alt="News 1"
+                      class="carrossel-imagem-noticia">
+                    <p class="carrossel-titulo-noticia">Several injured after car drives into crowd in Stuttgart,
+                      Germany
+                    </p>
+                    <h2 class="carrossel-noticia">A Mercedes G-Class SUV drove into a crowd in downtown Stuttgart,
+                      injuring at least eight people, three seriously. Police say there's no indication of a deliberate
+                      attack.</h2>
+                    <button class="carrossel-button-noticia">&#8618;</button>
+                  </a>
+                </li>
+                <li class="carrossel-item-noticia swiper-slide">
+                  <a href="https://www.reuters.com/world/china/chinese-police-detain-man-after-hit-and-run-attack-leaves-several-wounded-2024-11-12/"
+                    class="carrossel-link-noticia" target="_blank" rel="noopener noreferrer">
+                    <img src="https://cdn.pixabay.com/photo/2021/12/02/14/18/police-6840640_1280.jpg" alt="News 2"
+                      class="carrossel-imagem-noticia">
+                    <p class="carrossel-titulo-noticia">Chinese man kills 35 in intentional car attack after divorce
+                      dispute</p>
+                    <h2 class="carrossel-noticia">A 62-year-old man rammed his car into a crowd in Zhuhai, China,
+                      killing
+                      35 people and injuring 43, reportedly due to dissatisfaction with his divorce settlement.</h2>
+                    <button class="carrossel-button-noticia">&#8618;</button>
+                  </a>
+                </li>
+                <li class="carrossel-item-noticia swiper-slide">
+                  <a href="https://www.reuters.com/world/americas/more-than-20-dead-bus-truck-collision-brazil-2024-12-21/"
+                    class="carrossel-link-noticia" target="_blank" rel="noopener noreferrer">
+                    <img src="https://cdn.pixabay.com/photo/2017/08/19/20/10/semi-2659732_1280.jpg" alt="News 3"
+                      class="carrossel-imagem-noticia">
+                    <p class="carrossel-titulo-noticia">More than 20 dead in fiery bus-truck collision in Brazil</p>
+                    <h2 class="carrossel-noticia">A tragic crash between a passenger bus and a truck in Minas Gerais,
+                      Brazil, left over 30 people dead. The truck driver reportedly fled the scene.</h2>
+                    <button class="carrossel-button-noticia">&#8618;</button>
+                  </a>
+                </li>
+                <li class="carrossel-item-noticia swiper-slide">
+                  <a href="https://www.fox7austin.com/news/florida-authorities-seeking-driver-who-allegedly-stopped-for-person-crossing-then-hit-them-with-car"
+                    class="carrossel-link-noticia" target="_blank" rel="noopener noreferrer">
+                    <img src="https://cdn.pixabay.com/photo/2021/01/15/23/27/traffic-light-5920765_960_720.jpg"
+                      alt="News 4" class="carrossel-imagem-noticia">
+                    <p class="carrossel-titulo-noticia">Florida driver runs over pedestrian after stopping to let them
+                      cross</p>
+                    <h2 class="carrossel-noticia">In Oakland Park, Florida, a driver appeared to stop for a pedestrian,
+                      only to intentionally accelerate and strike the person. The pedestrian broke a leg; the driver
+                      fled.
+                    </h2>
+                    <button class="carrossel-button-noticia">&#8618;</button>
+                  </a>
+                </li>
+                <li class="carrossel-item-noticia swiper-slide">
+                  <a href="https://www.fox5dc.com/news/senator-fettermans-high-speed-crash-bodycam-footage-released"
+                    class="carrossel-link-noticia" target="_blank" rel="noopener noreferrer">
+                    <img src="https://cdn.pixabay.com/photo/2016/03/11/02/08/speedometer-1249610_1280.jpg" alt="News 5"
+                      class="carrossel-imagem-noticia">
+                    <p class="carrossel-titulo-noticia">Senator John Fetterman's High-Speed Crash in Maryland</p>
+                    <h2 class="carrossel-noticia">Senator John Fetterman and his wife, Gisele, were involved in a
+                      high-speed crash on Interstate 70 in Maryland. Body camera footage released by Maryland State
+                      Police
+                      shows the aftermath of the incident. Fetterman was found at fault for the accident, which resulted
+                      in minor injuries to all parties involved.
+                    </h2>
+                    <button class="carrossel-button-noticia">&#8618;</button>
+                  </a>
+                </li>
+              </ul>
+              <div class="swiper-scrollbar"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./js/responsividade.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

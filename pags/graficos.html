@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FatalityPredict - Graphics</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+  <!-- MENU LATERAL -->
+
+  <aside class="menuLateral">
+    <nav class="navegacaoLateral">
+
+      <header class="cabecalho">
+        <ul class="conjuntoLateralCabecalho">
+          <li class="listaLateralCabecalho"><img src="../img/logo/logo_FatalityPredict.png" alt="Logo FatalityPredict">
+          </li>
+        </ul>
+      </header>
+
+      <section class="menu">
+        <ul class="conjuntoLateral">
+          <li class="listaLateral" id="listaHome">
+            <a href="../index.html">Traffic Accidents</a>
+          </li>
+          <li class="listaLateral" id="listaBaseDados">
+            <a href="basedados.html">Data Base</a>
+          </li>
+          <li class="listaLateral" id="listaPF">
+            <a href="previsaofatalidade.html">FatalityPredict</a>
+          </li>
+          <li class="listaLateral" id="listaGraficos">
+            <a href="graficos.html">Graphics</a>
+          </li>
+        </ul>
+      </section>
+
+      <footer class="rodape">
+        <ul class="conjuntoLateralRodape">
+          <li class="listaLateralRodape">
+            <p class="textoRodape">FatalityPredict&copy; 2025.</p>
+          </li>
+          <li class="listaLateralRodape">
+            <a href="./sobrenos.html" class="linkEquipe">About Us</a>
+          </li>
+          <li class="listaLateralRodape">
+            <a href="https://github.com/mariliagabriellanascimento/FatalityPredict" target="_blank" rel="noopener noreferrer"><img src="../img/icon/git.png"
+                width="36px" alt="Logo GitHub"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </nav>
+  </aside>
+
+  <!-- MENU RESPONSIVO -->
+
+  <div class="menuLateralmobile">
+    <header class="cabecalhoMobile">
+      <ul class="conjuntoLateralCabecalho">
+        <li class="listaLateralCabecalho"><img src="../img/logo/logo_FatalityPredict.png" id="logoMobile"
+            alt="Logo FatalityPredict">
+        </li>
+      </ul>
+    </header>
+
+    <footer class="rodapeSobreNos">
+      <p>FatalityPredict&copy; 2025.</p>
+      <a href="sobrenos.html" class="linkEquipe">About Us</a>
+      <a href="https://github.com/mariliagabriellanascimento/FatalityPredict" target="_blank" rel="noopener noreferrer"><img src="../img/icon/git.png"
+          width="36px" alt="Logo GitHub"></a>
+    </footer>
+  </div>
+
+  <div class="botao-abrir" id="botao-menu">
+    <i class="bi bi-list"></i>
+  </div>
+
+  <div class="menu-mobile" id="menu-mobile">
+    <div class="botao-fechar">
+      <i class="bi bi-x-lg"></i>
+    </div>
+    <nav>
+      <ul>
+        <li class="listaLateralMobile" id="listaHomeMobile">
+          <a href="../index.html">Traffic Accidents</a>
+        </li>
+        <li class="listaLateralMobile" id="listaBaseDadosMobile">
+          <a href="basedados.html">Data Base</a>
+        </li>
+        <li class="listaLateralMobile" id="listaPFMobile">
+          <a href="previsaofatalidade.html">FatalityPredict</a>
+        </li>
+        <li class="listaLateralMobile" id="listaGraficosMobile">
+          <a href="graficos.html">Graphics</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- CONTEUDO PRINCIPAL GRAFICOS -->
+
+  <main class="conteudo-principal-graficos">
+    <div class="card-explicacaoGraficosPrincipais">
+
+      <h2 class="titulo-secundarioGraficosPrincipais">Main Graphics</h2>
+
+      <ul class="lista-explicacaoGraficosPrincipais">
+
+        <li class="item-explicacaoGraficosPrincipais">
+          <div class="GraficosPrincipais">
+            <img src="../img/graficos/distribuicao-descricao-severidade.png"
+              alt="Bar Chart Image of Distribution by Severity Description">
+            <p class="titulosGraficosPrincipais"><b>Distribution by Severity Description</b></p>
+            <p class="descricaoGraficosPrincipais">Most accidents were classified as "NON-FATAL" or "NO INJURIES", with
+              a smaller number of "NOT INFORMED" cases and a minority of accidents resulting in "FATAL" outcomes.</p>
+          </div>
+        </li>
+
+        <li class="item-explicacaoGraficosPrincipais">
+          <div class="GraficosPrincipais">
+            <img src="../img/graficos/distribuicao-sexo.png" alt="Bar Chart Image of Distribution by Gender">
+            <p class="titulosGraficosPrincipais"><b>Distribution by Gender</b></p>
+            <p class="descricaoGraficosPrincipais">Most of the victims involved in the accidents are male (M),
+              representing a large proportion compared to female (F). A small number of records are classified as "O"
+              (others or not informed).</p>
+          </div>
+        </li>
+
+        <li class="item-explicacaoGraficosPrincipais">
+          <div class="GraficosPrincipais">
+            <img src="../img/graficos/distribuicao-condutor.png" alt="Bar Chart Image of Distribution by Driver">
+            <p class="titulosGraficosPrincipais"><b>Distribution by Driver</b></p>
+            <p class="descricaoGraficosPrincipais">Most individuals involved in the accidents were drivers (S), while a
+              smaller number were non-drivers (N), such as passengers or pedestrians.</p>
+          </div>
+        </li>
+
+        <li class="item-explicacaoGraficosPrincipais">
+          <div class="GraficosPrincipais">
+            <img src="../img/graficos/distribuicao-cinto-seguranca.png"
+              alt="Bar Chart Image of Distribution by Seat Belt Usage">
+            <p class="titulosGraficosPrincipais"><b>Distribution by Seat Belt Usage</b></p>
+            <p class="descricaoGraficosPrincipais">Most of those involved were wearing a seat belt at the time of the
+              accident, while a considerably smaller portion was not using the equipment.</p>
+          </div>
+        </li>
+
+        <li class="item-explicacaoGraficosPrincipais">
+          <div class="GraficosPrincipais">
+            <img src="../img/graficos/distribuicao-embreaguez.png"
+              alt="Bar Chart Image of Distribution by Intoxication">
+            <p class="titulosGraficosPrincipais"><b>Distribution by Intoxication</b></p>
+            <p class="descricaoGraficosPrincipais">The vast majority of records indicate that drivers were not
+              intoxicated at the time of the accident. Few cases were marked as "YES" (intoxicated), and there is also a
+              portion labeled "NOT INFORMED".</p>
+          </div>
+        </li>
+
+        <li class="item-explicacaoGraficosPrincipais">
+          <div class="GraficosPrincipais">
+            <img src="../img/graficos/distribuicao-especie-veiculo.png"
+              alt="Bar Chart Image of Distribution by Vehicle Type">
+            <p class="titulosGraficosPrincipais"><b>Distribution by Vehicle Type</b></p>
+            <p class="descricaoGraficosPrincipais">Most of the vehicles involved in the accidents are cars and
+              motorcycles. Other types, such as buses, pickup trucks, and bicycles, appear in smaller numbers. Vehicles
+              like tractors and trains were recorded in rare cases.</p>
+          </div>
+        </li>
+
+        <li class="item-explicacaoGraficosPrincipais">
+          <div class="GraficosPrincipais">
+            <img src="../img/graficos/distribuicao-pedestre.png"
+              alt="Bar Chart Image of Distribution by Pedestrian Involvement">
+            <p class="titulosGraficosPrincipais"><b>Distribution by Pedestrian</b></p>
+            <p class="descricaoGraficosPrincipais">Most of the records do not involve pedestrians (N). Only a small
+              fraction of the cases indicate the presence of pedestrians (S).</p>
+          </div>
+        </li>
+
+        <li class="item-explicacaoGraficosPrincipais">
+          <div class="GraficosPrincipais">
+            <img src="../img/graficos/distribuicao-passageiro.png" alt="Bar Chart Image of Distribution by Passenger">
+            <p class="titulosGraficosPrincipais"><b>Distribution by Passenger</b></p>
+            <p class="descricaoGraficosPrincipais">Most of the records refer to individuals who were not in the role of
+              passenger (N), while a much smaller number refer to passengers (S).</p>
+          </div>
+        </li>
+
+        <li class="item-explicacaoGraficosPrincipais">
+          <div class="GraficosPrincipais">
+            <img src="../img/graficos/boxplot-distribuicao-idade-severidade.png"
+              alt="Boxplot Chart Image of Age Distribution by Severity">
+            <p class="titulosGraficosPrincipais"><b>Age Distribution by Severity</b></p>
+            <p class="descricaoGraficosPrincipais">Accidents classified as "FATAL" or "NO INJURIES" involve a wider age
+              range. The median age of those involved in fatal accidents is slightly lower than in other categories,
+              indicating possible vulnerability among middle age groups.</p>
+          </div>
+        </li>
+
+        <li class="item-explicacaoGraficosPrincipais">
+          <div class="GraficosPrincipais">
+            <img src="../img/graficos/boxplot-envolvidos-severidade.png"
+              alt="Boxplot Chart Image on Number of People Involved vs Accident Severity">
+            <p class="titulosGraficosPrincipais"><b>Number of People Involved vs Severity</b></p>
+            <p class="descricaoGraficosPrincipais">Accidents with greater severity tend to involve more people. This may
+              indicate that more serious collisions occur in situations with fuller vehicles or multiple parties
+              involved.</p>
+          </div>
+        </li>
+
+        <li class="item-explicacaoGraficosPrincipais">
+          <div class="GraficosPrincipais">
+            <img src="../img/graficos/boxplot-distribuicao-nao-envolvido-severidade.png"
+              alt="Boxplot Chart Image of Distribution of Non-Involved by Severity">
+            <p class="titulosGraficosPrincipais"><b>Distribution of Non-Involved by Severity</b></p>
+            <p class="descricaoGraficosPrincipais">Most accidents, regardless of severity, involve few individuals
+              classified as "Non-Involved." However, there are outliers indicating cases with high numbers, especially
+              in the "NO INJURIES" category.</p>
+          </div>
+        </li>
+
+        <li class="item-explicacaoGraficosPrincipais">
+          <div class="GraficosPrincipais">
+            <img src="../img/graficos/boxplot-idade-cinto-seguranca.png"
+              alt="Boxplot Chart Image of Age vs Seat Belt Usage">
+            <p class="titulosGraficosPrincipais"><b>Age vs Seat Belt Usage</b></p>
+            <p class="descricaoGraficosPrincipais">People who use seat belts tend to be older compared to those who do
+              not, whose median age is considerably lower. Seat belt usage seems to be related to greater maturity or
+              safety awareness.</p>
+          </div>
+        </li>
+
+        <li class="item-explicacaoGraficosPrincipais">
+          <div class="GraficosPrincipais">
+            <img src="../img/graficos/boxplot-idade-embreaguez.png" alt="Boxplot Chart Image of Age vs Intoxication">
+            <p class="titulosGraficosPrincipais"><b>Age vs Intoxication</b></p>
+            <p class="descricaoGraficosPrincipais">Most individuals involved in accidents without signs of intoxication
+              have a broader age distribution and a higher median age. Those who were intoxicated tend to be younger,
+              suggesting a possible association between youth and risky behavior.</p>
+          </div>
+        </li>
+
+        <li class="item-explicacaoGraficosPrincipais">
+          <div class="GraficosPrincipais">
+            <img src="../img/graficos/boxplot-hora-acidente-severidade.png"
+              alt="Boxplot Chart Image of Accident Time vs Severity">
+            <p class="titulosGraficosPrincipais"><b>Accident Time vs Severity</b></p>
+            <p class="descricaoGraficosPrincipais">Accidents with greater severity show a distribution concentrated in
+              the night and early morning hours, suggesting a link with reduced visibility, fatigue, or recklessness
+              during this period.</p>
+          </div>
+        </li>
+
+        <li class="item-explicacaoGraficosPrincipais">
+          <div class="GraficosPrincipais">
+            <img src="../img/graficos/scatterplot-idade-envolvido-severidade.png"
+              alt="Scatter Plot Chart Image of Involved Age vs Accident Severity">
+            <p class="titulosGraficosPrincipais"><b>Involved Age vs Severity</b></p>
+            <p class="descricaoGraficosPrincipais">There is no strong correlation between age and severity, but a higher
+              concentration of less severe cases is observed in younger and adult age groups, while more severe cases
+              are more widely distributed.</p>
+          </div>
+        </li>
+
+        <li class="item-explicacaoGraficosPrincipais">
+          <div class="GraficosPrincipais">
+            <img src="../img/graficos/distribuicao-sexo-severidade.png"
+              alt="Distribution Chart Image of Gender vs Accident Severity">
+            <p class="titulosGraficosPrincipais"><b>Gender vs Severity</b></p>
+            <p class="descricaoGraficosPrincipais">Men are the majority at all severity levels, with a higher proportion
+              in more severe accidents. This suggests that higher-risk behaviors in traffic may be more associated with
+              the male gender.</p>
+          </div>
+        </li>
+
+        <li class="item-explicacaoGraficosPrincipais">
+          <div class="GraficosPrincipais">
+            <img src="../img/graficos/distribuicao-acidentes-hora-por-dia.png"
+              alt="Bar Chart Showing the Number of Accidents at Each Hour of the Day">
+            <p class="titulosGraficosPrincipais"><b>Accident Distribution by Hour of the Day</b></p>
+            <p class="descricaoGraficosPrincipais">The highest concentration of accidents occurs between 4 PM and 7 PM,
+              suggesting a peak during the work return time. During the early morning, the numbers are significantly
+              lower, except for a slight increase between 6 AM and 8 AM, indicating the start of morning traffic.</p>
+          </div>
+        </li>
+
+        <li class="item-explicacaoGraficosPrincipais">
+          <div class="GraficosPrincipais">
+            <img src="../img/graficos/lineplot-numero-acidente-hora-acidente.png"
+              alt="Line Chart Image of Number of Accidents by Accident Hour">
+            <p class="titulosGraficosPrincipais"><b>Number of Accidents by Accident Hour</b></p>
+            <p class="descricaoGraficosPrincipais">The number of accidents increases significantly during peak hours,
+              such as in the morning and late afternoon. This pattern suggests that traffic volume directly influences
+              the occurrence of accidents.</p>
+          </div>
+        </li>
+
+        <li class="item-explicacaoGraficosPrincipais">
+          <div class="GraficosPrincipais">
+            <img src="../img/graficos/heatmap-correlacao.png"
+              alt="Heatmap of Correlation between Variables such as Age, Seat Belt Usage, and Severity">
+            <p class="titulosGraficosPrincipais"><b>Correlation Heatmap between Accident Variables</b></p>
+            <p class="descricaoGraficosPrincipais">The correlation heatmap shows important relationships, such as the
+              positive association between age and seat belt usage, and the negative correlation between being a
+              passenger and being a driver. It also highlights the relationship between age and accident severity.</p>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="../js/responsividade.js"></script>
+  <script src="../js/script.js"></script>
+</body>
+
+</html>
